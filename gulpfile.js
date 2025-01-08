@@ -159,6 +159,14 @@ gulp.task(
         server: {
           baseDir: path.build.dirDev,
         },
+        // open: true, // Automatically open the browser
+        // notify: false, // Disable notifications in the browser
+        // https: false, // Disable HTTPS (if needed)
+        // port: 3030,  // Define the port
+        // tunnel: true, // Or you could use `proxy` if you're working with a pre-existing backend
+        // tunnelOptions: {
+        //   password: 'my-password'  // Set a custom tunnel password
+        // }
       });
     })
   )
